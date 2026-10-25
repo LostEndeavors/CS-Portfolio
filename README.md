@@ -1,2 +1,16 @@
 # CS-Portfolio
 My computer science portfolio for SNHU
+
+CS 210 Portfolio Reflection: Corner Grocer
+
+The corner Grocer project was a C++ program to help a grocery store keep track of what items were being purchased the most. The program reads items from a file and counts how many times each item shows up. It allows the user to search for a specific item, see a list of all the item frequencies and view a histogram. It also saves the frequency information to a file called frequency.dat. The main goal was to take grocery data and make it easier to understand and use.
+
+What I think I did well was breaking the program into different files and using a class to organize the grocery data. I also got more comfortable using maps to keep track of how many times items appeared. Getting the menu working was another thing I felt alright about because it gave the user different options without making the program too complicated. I didn't understand a lot of it right away. But working through the project helped me get a better idea of how all the pieces came together.
+
+There is a lot I can do to enhance my code.For example, I could add better error handling for when a file is missing or the user enters something invalid. This would help prevent the program from having problems when someone uses it incorrectly. I could also look for places where I repeated code and turn those into functions instead. Another thing I could do is test the program with more types of input to make sure it works in different situations. I think these changes would make the program more reliable and easier to work on later.
+
+One of the harder parts for me was figuring out how to organize everything across multiple files and understand how the class worked with the rest of the program. File input and output also took some getting used to, along with figuring out how to use a map to store the item counts. When I ran into problems, I worked through them one at a time, looked back at the instructions, and tested different things until I could get them working. Visual Studio was helpful for finding errors and testing my code. Going forward, I plan to keep using the course materials, online documentation, and debugging tools when I get stuck, since there is still alot I can learn.
+
+I learned things from this project that I can use in future programming classes and other projects. Working with classes, maps, and files are all skills I will probably use again. I also got more practice with debugging and breaking a bigger problem into smaller steps instead of trying to figure everything out at once. I think learning how to work through problems when the code doesn't work the way I expected is one of the most useful things I can take from this project.
+
+I tried to keep the program organized by separating it into multiple files and using the GroceryTracker class to keep related code together. Having different functions handle different tasks makes the program a little easier to follow and change later. Using names that described what the code did also helps make it easier to  understand. If I wanted to add more features in the future like tracking prices or adding more ways to display the data, having the code organized this way would make that easier.
